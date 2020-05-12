@@ -12,6 +12,7 @@ let btn = document.querySelector('.magic');
 let skin = '#ab71c9 !important';
 
 btn.addEventListener('click',()=>{
+
     head.classList.toggle('badMinionSkin');
     console.log(mouth);
     mouth.classList.toggle('badMinionSkin');
